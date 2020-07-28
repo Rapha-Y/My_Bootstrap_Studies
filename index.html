@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap 4</title>
+        <meta charset="UTF-8">
+        <meta name="vieport" content="width=device-width, initial-scale=1">
+        <link 
+            rel="stylesheet" 
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!-- Fixed width container (changes according to screen size) -->
+        <div class="container">
+            <h1>Hello World!</h1>
+            <p>Goodbye World!</p>
+        </div>
+        <!-- Full width container -->
+        <div class="container-fluid">
+            <h1>Hello World!</h1>
+            <p>Goodbye World!</p>
+        </div>
+        <div class="container">
+            I'm a div with the default padding of 15px
+        </div>
+        <div class="container pt-3">
+            I'm a div with a top padding of 16px
+        </div>
+        <!-- "my" explanation: m is for classes that set margin and y for classes that set top and bottom -->
+        <div class="container p-3 my-3 bg-dark text-white">
+            I'm dark and edgy
+        </div>
+        <div class="container p-3 my-3 bg-primary text-white">
+            I'm blue as the sky
+        </div>
+        <!--
+            At smaller screen sizes, every container with have the full screen width,
+            but as the screen width grows, the container's width will switch to a fixed one.
+            The smaller the container, the less screen width increase it'll take for it to switch
+            to a fixed one.
+        -->
+        <div class="container-sm bg-dark text-white">I'm teeny tiny smol</div>
+        <div class="container-md bg-primary text-white">I'm a non-spiritual medium</div>
+        <div class="container-lg bg-dark text-white">I'm a big chungus</div>
+        <div class="container-xl bg-primary text-white">I'm humongous</div>
+    </body>
+</html>
