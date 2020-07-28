@@ -1,2 +1,2 @@
 # My_Bootstrap_Studies
-Repository to keep track of my Bootstrap studies
+Project to help me learn Bootstrap. Following the tutorial at https://www.w3schools.com/bootstrap4/default.asp
