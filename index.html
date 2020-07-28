@@ -13,17 +13,34 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="jumbotron">
-            <h1>Jumbotron</h1>
-            <p>Jumbotrons are big gray boxes in which you can put almost any valid html and Bootstrap classes</p>
+        <div class="alert alert-success">I indicate success.</div>
+        <div class="alert alert-info">I indicate information.</div>
+        <div class="alert alert-warning">I indicate a warning.</div>
+        <div class="alert alert-danger">I indicate danger.</div>
+        <div class="alert alert-primary">I indicate importance.</div>
+        <div class="alert alert-secondary">I indicate less importance.</div>
+        <div class="alert alert-light">I'm light.</div>
+        <div class="alert alert-dark">I'm dark.</div>
+        <hr>
+
+        <div class="alert alert-info">
+            Alerts can contain links. See more at 
+            <a href="https://www.w3schools.com/bootstrap4/bootstrap_alerts.asp" class="alert-link">
+                W3Schools
+            </a>
+            .
         </div>
         <hr>
 
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1>More details</h1>
-                <p>To get rid of rounded borders, make the jumbotron fluid and put a container/container-fluid inside it</p>
-            </div>    
+        <div class="alert alert-info alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            Alerts can be closed.
         </div>
+        <hr>
+
+        <div class="alert alert-info alert-dismissible fade show">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            Alerts can fade out.
+        </div>        
     </body>
 </html>
