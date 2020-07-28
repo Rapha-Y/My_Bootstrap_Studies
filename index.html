@@ -13,34 +13,54 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="alert alert-success">I indicate success.</div>
-        <div class="alert alert-info">I indicate information.</div>
-        <div class="alert alert-warning">I indicate a warning.</div>
-        <div class="alert alert-danger">I indicate danger.</div>
-        <div class="alert alert-primary">I indicate importance.</div>
-        <div class="alert alert-secondary">I indicate less importance.</div>
-        <div class="alert alert-light">I'm light.</div>
-        <div class="alert alert-dark">I'm dark.</div>
+        <button type="button" class="btn">I'm basic</button>
+        <button type="button" class="btn btn-primary">I'm primary</button>
+        <button type="button" class="btn btn-secondary">I'm secondary</button>
+        <button type="button" class="btn btn-success">I'm successful</button>
+        <button type="button" class="btn btn-info">I'm informative</button>
+        <button type="button" class="btn btn-warning">I'm warning ya</button>
+        <button type="button" class="btn btn-danger">I'm dangerous</button>
+        <button type="button" class="btn btn-dark">I'm dark</button>
+        <button type="button" class="btn btn-light">I'm light</button>
+        <button type="button" class="btn btn-link">I'm a link</button>
         <hr>
 
-        <div class="alert alert-info">
-            Alerts can contain links. See more at 
-            <a href="https://www.w3schools.com/bootstrap4/bootstrap_alerts.asp" class="alert-link">
-                W3Schools
-            </a>
-            .
-        </div>
+        <a href="#" class="btn btn-info" role="button">Button classes can be used in links</a>
+        <input type="button" class="btn btn-info" value="On input buttons as well">
+        <input type="submit" class="btn btn-info" value="And submit inputs">
         <hr>
 
-        <div class="alert alert-info alert-dismissible">
-            <button type="button" class="close" data-dismiss="alert">&times;</button>
-            Alerts can be closed.
-        </div>
+        <button type="button" class="btn btn-outline-primary">I'm primary</button>
+        <button type="button" class="btn btn-outline-secondary">I'm secondary</button>
+        <button type="button" class="btn btn-outline-success">I'm successful</button>
+        <button type="button" class="btn btn-outline-info">I'm informative</button>
+        <button type="button" class="btn btn-outline-warning">I'm warning you</button>
+        <button type="button" class="btn btn-outline-danger">I'm dangerous</button>
+        <button type="button" class="btn btn-outline-dark">I'm dark</button>
+        <button type="button" class="btn btn-outline-light text-dark">I'm light</button>
         <hr>
 
-        <div class="alert alert-info alert-dismissible fade show">
-            <button type="button" class="close" data-dismiss="alert">&times;</button>
-            Alerts can fade out.
-        </div>        
+        <button type="button" class="btn btn-primary btn-sm">I'm small</button>
+        <button type="button" class="btn btn-primary btn-lg">I'm large</button>
+        <hr>
+
+        <button type="button" class="btn btn-primary btn-block">
+            I'm a block that occupies the full width of this page
+        </button>
+        <hr>
+
+        <button type="button" class="btn btn-primary active">I have the active class</button>
+        <button type="button" class="btn btn-primary" disabled>I have the disabled attribute</button>
+        <a href="#" class="btn btn-primary disabled">I have the disabled class</a>
+        <hr>
+
+        <button class="btn btn-primary">
+            <span class="spinner-border spinner-border-sm"></span>
+            I'm loading nothing
+        </button>
+        <button class="btn btn-primary">
+            <span class="spinner-grow spinner-grow-sm"></span>
+            Same, buddy
+        </button>
     </body>
 </html>
