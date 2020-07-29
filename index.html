@@ -13,155 +13,69 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                Drop my menu
-            </button>
-            <div class="dropdown-menu">
-                <a href="#" class="dropdown-item">I'm out of</a>
-                <a href="#" class="dropdown-item">Witty or funny</a>
-                <a href="#" class="dropdown-item">Comments</a>
-            </div>
+        <button data-toggle="collapse" data-target="#target-a">Toggle Text</button>
+        <div id="target-a" class="collapse">
+            According to all known laws of aviation, there's no way a bee should be able to fly.
+            Its wings are too small to get its fat little body off the ground.
+            The bee, of course, flies anyway.
+            Because bees don't care what humans think is impossible.
         </div>
         <hr>
 
-        <div class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                Ragnarok Classes
-            </button>
-            <div class="dropdown-menu">
-                <a href="#" class="dropdown-item">Rune Knight</a>
-                <a href="#" class="dropdown-item">Mechanick</a>
-                <a href="#" class="dropdown-item">Warlock</a>
-                <a href="#" class="dropdown-item">Shadow Chaser</a>
-                <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item">Super Novice</a>
-            </div>
+        <a href="#target-b" data-toggle="collapse">Toggle Meme</a>
+        <div id="target-b" class="collapse">
+            My name is Yoshikage Kira. I'm 33 years old. 
+            My house is in the northeast section of Morioh, where all the villas are, and I'm not married.
+            I work as an employee for the Kame Yu department stores, and I get home every day by 8 PM at the latest.
         </div>
         <hr>
 
-        <div class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                Fire Emblem Lords
-            </button>
-            <div class="dropdown-menu">
-                <div class="dropdown-header">FE7</div>
-                <a href="#" class="dropdown-item">Lyn</a>
-                <a href="#" class="dropdown-item">Eliwood</a>
-                <a href="#" class="dropdown-item">Hector</a>
-                <div class="dropdown-header">FE8</div>
-                <a href="#" class="dropdown-item">Eirika</a>
-                <a href="#" class="dropdown-item">Ephraim</a>
-            </div>
+        <button data-toggle="collapse" data-target="#target-c">Toggle Video</button>
+        <div id="target-c" class="collapse show">
+            Never gonna give you up, never gonna let you down<br>
+            Never gonna turn around and desert you<br>
+            Never gonna make you cry, never gonna say goodbye<br>
+            Never gonna tell a lie, and hurt you
         </div>
         <hr>
 
-        <div class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                Indicators
-            </button>
-            <div class="dropdown-menu">
-                <a href="#" class="dropdown-item active">I indicate activity</a>
-                <a href="#" class="dropdown-item disabled">I indicate disability</a>
-            </div>
-        </div>
-        <hr>
-
-        <div class="dropdown dropright">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                To my right are
-            </button>
-            <div class="dropdown-menu">
-                <a href="#" class="dropdown-item">The east</a>
-                <a href="#" class="dropdown-item">3 o'clock</a>
-            </div>
-        </div>
-        <div class="dropdown dropleft float-right">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                To my left are
-            </button>
-            <div class="dropdown-menu">
-                <a href="#" class="dropdown-item">The west</a>
-                <a href="#" class="dropdown-item">9 o'clock</a>
-            </div>
-        </div>
-        <hr>
-
-        <div class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                Instead of dropping to the left...
-            </button>
-            <div class="dropdown-menu dropdown-menu-right">
-                <a href="#" class="dropdown-item">We dropped</a>
-                <a href="#" class="dropdown-item">from the right</a>
-            </div>
-        </div>    
-        <hr>
-        
-        <div class="dropdown dropup">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                Above me are...
-            </button>
-            <div class="dropdown-menu">
-                <a href="#" class="dropdown-item">The north</a>
-                <a href="#" class="dropdown-item">12 o'clock</a>
-            </div>
-        </div>  
-        <hr>
-
-        <div class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                Surprises await inside me
-            </button>
-            <div class="dropdown-menu dropdown-menu-right">
-                <a href="#" class="dropdown-item">I'm a link</a>
-                <a href="#" class="dropdown-item">I'm a link too</a>
-                <a href="#" class="dropdown-item-text">I'm a link three</a>
-                <span class="dropdown-item-text">I'm just text, sorry</span>
-            </div>
-        </div>  
-        <hr>
-
-        <div class="btn-group">
-            <button type="button" class="btn btn-primary">Deja Vu</button>
-            <button type="button" class="btn btn-primary">I've just been</button>
-            <div class="btn-group">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                    to this place before
-                </button>
-                <div class="dropdown-menu">
-                    <a href="#" class="dropdown-item">No, seriously</a>
-                    <a href="#" class="dropdown-item">this was in a previous commit</a>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a href="#collapseOne" data-toggle="collapse" class="card-link">
+                        Navy
+                    </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                        What the fuck did you just fucking say about me you little bitch
+                    </div>
                 </div>
             </div>
-        </div>
-        <hr>
 
-        <div class="btn-group">
-            <button type="button" class="btn btn-primary">Deja Vu</button>
-            <button 
-                type="button" 
-                class="btn btn-primary dropdown-toggle dropdown-toggle-split" 
-                data-toggle="dropdown"
-            >
-            </button>
-            <div class="dropdown-menu">
-                <a href="#" class="dropdown-item">Again?</a>
-                <a href="#" class="dropdown-item">Omg</a>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#collapseTwo" data-toggle="collapse" class="card-link">
+                        Seal
+                    </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        I'll have you know I graduated top of my class in the navy seals
+                    </div>
+                </div>
             </div>
-        </div>
-        <hr>
 
-        <div class="btn-group-vertical">
-            <button type="button" class="btn btn-primary">Deja Vu</button>
-            <button type="button" class="btn btn-primary">I've just been</button>
-            <div class="btn-group">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                    to this place before
-                </button>
-                <div class="dropdown-menu">
-                    <a href="#" class="dropdown-item">Make it</a>
-                    <a href="#" class="dropdown-item">stoooop!!</a>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#collapseThree" data-toggle="collapse" class="card-link">
+                        Copypasta
+                    </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        I have three-hundred confirmed kills and I'm trained in gorilla warfare
+                    </div>
                 </div>
             </div>
         </div>
