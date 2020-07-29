@@ -13,71 +13,162 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <button data-toggle="collapse" data-target="#target-a">Toggle Text</button>
-        <div id="target-a" class="collapse">
-            According to all known laws of aviation, there's no way a bee should be able to fly.
-            Its wings are too small to get its fat little body off the ground.
-            The bee, of course, flies anyway.
-            Because bees don't care what humans think is impossible.
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Saturn</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Mars</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Jupiter</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Pluto</a>
+            </li>
+        </ul>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Mercury</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Uranus</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Neptune</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Ceres</a>
+            </li>
+        </ul>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Earth</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Venus</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Eris</a>
+            </li>
+        </ul>
+        <hr>
+
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Swordsman</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Archer</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Merchant</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Gunslinger</a>
+            </li>
+        </ul>
+        <hr>
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Thief</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Mage</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Acolyte</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Taekwon Kid</a>
+            </li>
+        </ul>
+        <hr>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Knight</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Paladin</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Blacksmith</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Ninja</a>
+            </li>
+        </ul>
+        <hr>
+
+        <ul class="nav nav-tabs nav-justified">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Alchemist</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Priest</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Monk</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Super Novice</a>
+            </li>
+        </ul>
+        <hr>
+
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Wizard</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Sage</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Mercenary</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Summoner</a>
+            </li>
+        </ul>
+        <hr>
+
+        <!-- Both pills and tabs can have dropdowns, but it gets really ugly, so this will be skipped -->
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#rogue" data-toggle="tab" class="nav-link active">Rogue</a>
+            </li>
+            <li class="nav-item">
+                <a href="#hunter" data-toggle="tab" class="nav-link">Hunter</a>
+            </li>
+            <li class="nav-item">
+                <a href="#dancer" data-toggle="tab" class="nav-link">Dancer</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane container active" id="rogue">Bot class</div>
+            <div class="tab-pane container fade" id="hunter">Easy class</div>
+            <div class="tab-pane container fade" id="dancer">Cheap class</div>
         </div>
         <hr>
 
-        <a href="#target-b" data-toggle="collapse">Toggle Meme</a>
-        <div id="target-b" class="collapse">
-            My name is Yoshikage Kira. I'm 33 years old. 
-            My house is in the northeast section of Morioh, where all the villas are, and I'm not married.
-            I work as an employee for the Kame Yu department stores, and I get home every day by 8 PM at the latest.
-        </div>
-        <hr>
-
-        <button data-toggle="collapse" data-target="#target-c">Toggle Video</button>
-        <div id="target-c" class="collapse show">
-            Never gonna give you up, never gonna let you down<br>
-            Never gonna turn around and desert you<br>
-            Never gonna make you cry, never gonna say goodbye<br>
-            Never gonna tell a lie, and hurt you
-        </div>
-        <hr>
-
-        <div id="accordion">
-            <div class="card">
-                <div class="card-header">
-                    <a href="#collapseOne" data-toggle="collapse" class="card-link">
-                        Navy
-                    </a>
-                </div>
-                <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                    <div class="card-body">
-                        What the fuck did you just fucking say about me you little bitch
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <a href="#collapseTwo" data-toggle="collapse" class="card-link">
-                        Seal
-                    </a>
-                </div>
-                <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                    <div class="card-body">
-                        I'll have you know I graduated top of my class in the navy seals
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <a href="#collapseThree" data-toggle="collapse" class="card-link">
-                        Copypasta
-                    </a>
-                </div>
-                <div id="collapseThree" class="collapse" data-parent="#accordion">
-                    <div class="card-body">
-                        I have three-hundred confirmed kills and I'm trained in gorilla warfare
-                    </div>
-                </div>
-            </div>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a href="#bard" data-toggle="pill" class="nav-link active">Bard</a>
+            </li>
+            <li class="nav-item">
+                <a href="#rk" data-toggle="pill" class="nav-link">Rune Knight</a>
+            </li>
+            <li class="nav-item">
+                <a href="#rg" data-toggle="pill" class="nav-link">Royal Guard</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane container active" id="bard">High-demand class</div>
+            <div class="tab-pane container fade" id="rk">OP class</div>
+            <div class="tab-pane container fade" id="rg">Tanky class</div>
         </div>
     </body>
 </html>
