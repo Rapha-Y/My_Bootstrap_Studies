@@ -14,131 +14,75 @@
     </head>
     <body>
         <form>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text">@</span>
-                </div>
-                <input type="text" class="form-control" placeholder="provider.com">
-            </div>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="email">
-                <div class="input-group-append">
-                    <span class="input-group-text">@</span>
-                </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheckbox" name="sample">
+                <label for="customCheckbox" class="custom-control-label">Check moi</label>
             </div>
         </form>
         <hr>
 
         <form>
-            <div class="input-group mb-3 input-group-sm">
-                <div class="input-group-prepend">
-                    <span class="input-group-text">Small</span>
-                </div>
-                <input type="text" class="form-control" placeholder="Smol">
-            </div>
-            <div class="input-group mb-3 input-group-lg">
-                <div class="input-group-prepend">
-                    <span class="input-group-text">Large</span>
-                </div>
-                <input type="text" class="form-control" placeholder="Lorg">
-            </div>
-        </form>    
-        <hr>
-
-        <form>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text">Namae</span>
-                </div>
-                <input type="text" class="form-control" placeholder="First name">
-                <input type="text" class="form-control" placeholder="Last name">
-            </div>
-        </form>
-        <form>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text">Ichi</span>
-                    <span class="input-group-text">Ni</span>
-                    <span class="input-group-text">San</span>
-                </div>
-                <input type="text" class="form-control" placeholder="Shi">
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="customSwitch">
+                <label for="customSwitch" class="custom-control-label">Toggle moi</label>
             </div>
         </form>
         <hr>
 
         <form>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <div class="input-group-text">
-                        <input type="checkbox">
-                    </div>
-                </div>
-                <input type="text" class="form-control" placeholder="Am checkbox">
-            </div>
-        </form>
-        <form>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <div class="input-group-text">
-                        <input type="radio">
-                    </div>
-                </div>
-                <input type="text" class="form-control" placeholder="Am radio">
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="customRadio" name="otherSample">
+                <label for="customRadio" class="custom-control-label">Check moi</label>
             </div>
         </form>
         <hr>
 
         <form>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <button class="btn btn-primary" type="button">Am button</button>
-                </div>
-                <input type="text" class="form-control" placeholder="Button to my left">
+            <div class="custom-control custom-control-inline custom-radio">
+                <input type="radio" class="custom-control-input" id="customAM" name="sampleTheThird">
+                <label for="customAM" class="custom-control-label">PICK ME</label>
             </div>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Ready?">
-                <div class="input-group-append">
-                    <button class="btn btn-success" type="button">Go!</button>
-                </div>
-            </div>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="This is horrible UX design">
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="button">Confirm</button>
-                    <button class="btn btn-danger" type="button">Cancel</button>
-                </div>
+            <div class="custom-control custom-control-inline custom-radio">
+                <input type="radio" class="custom-control-input" id="customFM" name="sampleTheThird">
+                <label for="customFM" class="custom-control-label">NO, ME</label>
             </div>
         </form>
         <hr>
 
         <form>
-            <div class="input-group mt-3 mb-3">
-                <div class="input-group-prepend">
-                    <button 
-                        type="button"
-                        class="btn btn-outline-secondary dropdown-toggle"
-                        data-toggle="dropdown"
-                    >
-                        Drop me
-                    </button>
-                    <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item">Oh no</a>
-                        <a href="#" class="dropdown-item">you</a>
-                        <a href="#" class="dropdown-item">found me!</a>
-                    </div>
-                </div>
-                <input type="text" class="form-control" placeholder="Why are we still here? Just to suffer?">
-            </div>
+            <select name="dios" class="custom-select custom-select-sm">
+                <option selected>Custom selection menu</option>
+                <option value="brando">Dio</option>
+                <option value="dino">Diego</option>
+            </select>
+        </form>
+        <form>
+            <select name="pillarmen" class="custom-select">
+                <option selected>Custom selection menu</option>
+                <option value="wham">Whammu</option>
+                <option value="acdc">Eisidisi</option>
+                <option value="cars">Kars</option>
+            </select>
+        </form>
+        <form>
+            <select name="josukes" class="custom-select custom-select-lg">
+                <option selected>Custom selection menu</option>
+                <option value="two">Josuke</option>
+                <option value="four">Gappy</option>
+            </select>
         </form>
         <hr>
-        
+
         <form>
-            <label for="country">Write a country's name:</label>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="i.e.: Yunited Istats of Murica">
-                <div class="input-group-append">
-                    <span class="input-group-text">is a place</span>
-                </div>
+            <label for="customRange">Custom range</label>
+            <input type="range" class="custom-range" id="customRange" name="dragger">
+        </form>
+        <hr>
+
+        <form>
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="customFile">
+                <label for="customFile" class="custom-file-label">Choose your txt, png, or whatever</label>
             </div>
         </form>
     </body>
