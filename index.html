@@ -12,20 +12,91 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
-    <body>
-        <script>
-            $(document).ready(function() {
-                $('.toast').toast('show');
-            });
-        </script>
-        <div class="toast" data-autohide="false">
-            <div class="toast-header">
-                <span class="mr-auto">Do toast's even have a head?</span>
-                <button type="button" class="m1-2 mb-1 close" data-dismiss="toast">&times;</button>
-            </div>
-            <div class="toast-body">
-                They do have a body, though.
-            </div>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <!-- A vertical navigation menu can also be used -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a href="#percent0" class="nav-link">First quarter</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#percent25" class="nav-link">Second quarter</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#percent50" class="nav-link">Third quarter</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#percent75" class="nav-link">Fourth quarter</a>
+                </li>
+            </ul>
+        </nav>
+        <div 
+            id="percent0" 
+            class="container-fluid bg-primary" 
+            style="padding-top: 70px; padding-bottom:70px"
+        >
+            <h1>First quarter</h1>
+            <p>First quarter</p>
+            <p>First quarter</p>
+            <p>First quarter</p>
+            <p>First quarter</p>
+            <p>First quarter</p>
+            <p>First quarter</p>
+            <p>First quarter</p>
+            <p>First quarter</p>
+            <p>First quarter</p>
+            <p>First quarter</p>
+        </div>
+        <div 
+            id="percent25" 
+            class="container-fluid bg-secondary" 
+            style="padding-top: 70px; padding-bottom:70px"
+        >
+            <h1>Second quarter</h1>
+            <p>Second quarter</p>
+            <p>Second quarter</p>
+            <p>Second quarter</p>
+            <p>Second quarter</p>
+            <p>Second quarter</p>
+            <p>Second quarter</p>
+            <p>Second quarter</p>
+            <p>Second quarter</p>
+            <p>Second quarter</p>
+            <p>Second quarter</p>
+        </div>
+        <div 
+            id="percent50" 
+            class="container-fluid bg-primary" 
+            style="padding-top: 70px; padding-bottom:70px"
+        >
+            <h1>Third quarter</h1>
+            <p>Third quarter</p>
+            <p>Third quarter</p>
+            <p>Third quarter</p>
+            <p>Third quarter</p>
+            <p>Third quarter</p>
+            <p>Third quarter</p>
+            <p>Third quarter</p>
+            <p>Third quarter</p>
+            <p>Third quarter</p>
+            <p>Third quarter</p>
+        </div>
+        <div 
+            id="percent75" 
+            class="container-fluid bg-secondary" 
+            style="padding-top: 70px; padding-bottom:70px"
+        >
+            <h1>Fourth quarter</h1>
+            <p>Fourth quarter</p>
+            <p>Fourth quarter</p>
+            <p>Fourth quarter</p>
+            <p>Fourth quarter</p>
+            <p>Fourth quarter</p>
+            <p>Fourth quarter</p>
+            <p>Fourth quarter</p>
+            <p>Fourth quarter</p>
+            <p>Fourth quarter</p>
+            <p>Fourth quarter</p>
         </div>
     </body>
 </html>
