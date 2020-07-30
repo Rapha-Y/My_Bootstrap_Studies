@@ -15,49 +15,17 @@
     <body>
         <script>
             $(document).ready(function() {
-                $('[data-toggle="popover"]').popover();
+                $('.toast').toast('show');
             });
         </script>
-        <a href="#" data-toggle="popover" title="Not a pop-up" data-content="But a popover!">
-            What am I?  
-        </a>
-        <hr>
-
-        <!-- Breaks for the top popover to have space -->
-        <br><br>
-        <a href="#" data-toggle="popover" data-placement="top" title="North" data-content="Top">
-            Where am I?  
-        </a>
-        <a href="#" data-toggle="popover" data-placement="right" title="East" data-content="Right">
-            Where am I?  
-        </a>
-        <a href="#" data-toggle="popover" data-placement="bottom" title="South" data-content="Bottom">
-            Where am I?  
-        </a>
-        <a href="#" data-toggle="popover" data-placement="left" title="West" data-content="Left">
-            Where am I?  
-        </a>
-        <hr>
-
-        <a 
-            href="#" 
-            data-toggle="popover" 
-            data-trigger="focus" 
-            title="Aren't I?" 
-            data-content="Sure I am"
-        >
-            I'm intuitive
-        </a>
-        <hr>
-        
-        <a 
-            href="#" 
-            data-toggle="popover" 
-            data-trigger="hover" 
-            title="Yes, yes!" 
-            data-content="I am, for sure!"
-        >
-            I'm even more intuitive!
-        </a>
+        <div class="toast" data-autohide="false">
+            <div class="toast-header">
+                <span class="mr-auto">Do toast's even have a head?</span>
+                <button type="button" class="m1-2 mb-1 close" data-dismiss="toast">&times;</button>
+            </div>
+            <div class="toast-body">
+                They do have a body, though.
+            </div>
+        </div>
     </body>
 </html>
