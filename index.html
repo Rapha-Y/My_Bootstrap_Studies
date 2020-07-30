@@ -11,26 +11,53 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-        <style>
-            .carousel-inner img {
-                width: 100%;
-                height: 100%;
-            }
-        </style>
     </head>
     <body>
         <script>
             $(document).ready(function() {
-                $('[data-toggle="tooltip"]').tooltip();
+                $('[data-toggle="popover"]').popover();
             });
         </script>
-        <a href="#" data-toggle="tooltip" title="Good dog!">Hover over me!</a>
+        <a href="#" data-toggle="popover" title="Not a pop-up" data-content="But a popover!">
+            What am I?  
+        </a>
         <hr>
 
-        <a href="#" data-toggle="tooltip" data-placement="top" title="Top">Where am I?</a>
-        <a href="#" data-toggle="tooltip" data-placement="right" title="Right">Where am I?</a>
-        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Bottom">Where am I?</a>
-        <a href="#" data-toggle="tooltip" data-placement="left" title="Left">Where am I?</a>
+        <!-- Breaks for the top popover to have space -->
+        <br><br>
+        <a href="#" data-toggle="popover" data-placement="top" title="North" data-content="Top">
+            Where am I?  
+        </a>
+        <a href="#" data-toggle="popover" data-placement="right" title="East" data-content="Right">
+            Where am I?  
+        </a>
+        <a href="#" data-toggle="popover" data-placement="bottom" title="South" data-content="Bottom">
+            Where am I?  
+        </a>
+        <a href="#" data-toggle="popover" data-placement="left" title="West" data-content="Left">
+            Where am I?  
+        </a>
         <hr>
+
+        <a 
+            href="#" 
+            data-toggle="popover" 
+            data-trigger="focus" 
+            title="Aren't I?" 
+            data-content="Sure I am"
+        >
+            I'm intuitive
+        </a>
+        <hr>
+        
+        <a 
+            href="#" 
+            data-toggle="popover" 
+            data-trigger="hover" 
+            title="Yes, yes!" 
+            data-content="I am, for sure!"
+        >
+            I'm even more intuitive!
+        </a>
     </body>
 </html>
