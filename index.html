@@ -11,92 +11,104 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <style>
+            .border {
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                margin: 5px;
+            }
+        </style>
     </head>
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
-        <!-- A vertical navigation menu can also be used -->
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-            <ul class="navbar-nav">
-                <li class="navbar-item">
-                    <a href="#percent0" class="nav-link">First quarter</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="#percent25" class="nav-link">Second quarter</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="#percent50" class="nav-link">Third quarter</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="#percent75" class="nav-link">Fourth quarter</a>
-                </li>
-            </ul>
-        </nav>
-        <div 
-            id="percent0" 
-            class="container-fluid bg-primary" 
-            style="padding-top: 70px; padding-bottom:70px"
-        >
-            <h1>First quarter</h1>
-            <p>First quarter</p>
-            <p>First quarter</p>
-            <p>First quarter</p>
-            <p>First quarter</p>
-            <p>First quarter</p>
-            <p>First quarter</p>
-            <p>First quarter</p>
-            <p>First quarter</p>
-            <p>First quarter</p>
-            <p>First quarter</p>
+    <body>
+        <span class="border"></span>
+        <span class="border border-0"></span>
+        <span class="border border-top-0"></span>
+        <span class="border border-right-0"></span>
+        <span class="border border-bottom-0"></span>
+        <span class="border border-left-0"></span>
+        <hr>
+
+        <span class="border border-danger"></span>
+        <span class="border border-warning"></span>
+        <span class="border border-info"></span>
+        <hr>
+
+        <span class="border rounded"></span>
+        <span class="border rounded-circle"></span>
+        <hr>
+
+        <div class="clear-fix">
+            <span class="float-left">Lefty</span>
+            <span class="float-right">Righty</span>
         </div>
-        <div 
-            id="percent25" 
-            class="container-fluid bg-secondary" 
-            style="padding-top: 70px; padding-bottom:70px"
-        >
-            <h1>Second quarter</h1>
-            <p>Second quarter</p>
-            <p>Second quarter</p>
-            <p>Second quarter</p>
-            <p>Second quarter</p>
-            <p>Second quarter</p>
-            <p>Second quarter</p>
-            <p>Second quarter</p>
-            <p>Second quarter</p>
-            <p>Second quarter</p>
-            <p>Second quarter</p>
+        <br>
+        <hr>
+
+        <span class="float-sm-right">When bigger than smol, go right</span><br>
+        <span class="float-lg-right">When bigger than hooge, go right</span><br>
+        <hr>
+
+        <div class="mx-auto bg-primary" style="width: 65px">Centered</div>
+        <hr>
+
+        <div class="w-25 bg-primary">25%</div>
+        <div class="w-50 bg-primary">50%</div>
+        <div class="w-75 bg-primary">75%</div>
+        <div class="w-100 bg-primary">100%</div>
+        <hr>
+
+        <div style="height: 200px">
+            <div class="h-25 d-inline-block bg-primary">25%</div>
+            <div class="h-50 d-inline-block bg-primary">50%</div>
+            <div class="h-75 d-inline-block bg-primary">75%</div>
+            <div class="h-100 d-inline-block bg-primary">100%</div>
         </div>
-        <div 
-            id="percent50" 
-            class="container-fluid bg-primary" 
-            style="padding-top: 70px; padding-bottom:70px"
-        >
-            <h1>Third quarter</h1>
-            <p>Third quarter</p>
-            <p>Third quarter</p>
-            <p>Third quarter</p>
-            <p>Third quarter</p>
-            <p>Third quarter</p>
-            <p>Third quarter</p>
-            <p>Third quarter</p>
-            <p>Third quarter</p>
-            <p>Third quarter</p>
-            <p>Third quarter</p>
+        <hr>
+
+        <div class="p-5 bg-primary">I'm blue</div>
+        <div class="m-5 bg-success">I'm green</div>
+        <hr>
+
+        <div class="shadow-none p-4 mb-4 bg-white">I'm a vampire</div>
+        <div class="shadow-sm p-4 mb-4 bg-white">I'm directly under the light</div>
+        <div class="shadow p-4 mb-4 bg-white">I'm under the light at a bigger angle</div>
+        <div class="shadow-lg p-4 mb-4 bg-white">Im under the light at a very big angle</div>
+        <hr>
+
+        <div class="container">
+            <span class="align-baseline">This</span>
+            <span class="align-top">looks</span>
+            <span class="align-middle">weird</span>
         </div>
-        <div 
-            id="percent75" 
-            class="container-fluid bg-secondary" 
-            style="padding-top: 70px; padding-bottom:70px"
-        >
-            <h1>Fourth quarter</h1>
-            <p>Fourth quarter</p>
-            <p>Fourth quarter</p>
-            <p>Fourth quarter</p>
-            <p>Fourth quarter</p>
-            <p>Fourth quarter</p>
-            <p>Fourth quarter</p>
-            <p>Fourth quarter</p>
-            <p>Fourth quarter</p>
-            <p>Fourth quarter</p>
-            <p>Fourth quarter</p>
+        <hr>
+
+        <div class="container">
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe src="https://www.youtube.com/watch?v=e-ruaUXhBY8" class="embed-responsive-item">
+                </iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-1by1">
+                <iframe src="https://www.youtube.com/watch?v=e-ruaUXhBY8" class="embed-responsive-item">
+                </iframe>
+            </div>
         </div>
+        <hr>
+        
+        <div class="visible">You can see me.</div>
+        <div class="invisible">You can't see me.</div>
+        <hr>
+
+        <button type="button" class="close">&times;</button>
+        <hr>
+
+        <span class="sr-only">Only screen readers may detect my presence.</span>
+        <hr>
+
+        <span class="d-block bg-primary">Regular block</span>
+        <span class="d-sm-block bg-secondary">Small block</span>
+        <span class="d-md-block bg-primary">Medium block</span>
+        <span class="d-lg-block bg-secondary">Large block</span>
+        <span class="d-xl-block bg-primary">Extra-large block</span>
     </body>
 </html>
