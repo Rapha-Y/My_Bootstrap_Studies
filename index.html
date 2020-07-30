@@ -11,104 +11,166 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-        <style>
-            .border {
-                display: inline-block;
-                width: 100px;
-                height: 100px;
-                margin: 5px;
-            }
-        </style>
     </head>
     <body>
-        <span class="border"></span>
-        <span class="border border-0"></span>
-        <span class="border border-top-0"></span>
-        <span class="border border-right-0"></span>
-        <span class="border border-bottom-0"></span>
-        <span class="border border-left-0"></span>
-        <hr>
-
-        <span class="border border-danger"></span>
-        <span class="border border-warning"></span>
-        <span class="border border-info"></span>
-        <hr>
-
-        <span class="border rounded"></span>
-        <span class="border rounded-circle"></span>
-        <hr>
-
-        <div class="clear-fix">
-            <span class="float-left">Lefty</span>
-            <span class="float-right">Righty</span>
-        </div>
-        <br>
-        <hr>
-
-        <span class="float-sm-right">When bigger than smol, go right</span><br>
-        <span class="float-lg-right">When bigger than hooge, go right</span><br>
-        <hr>
-
-        <div class="mx-auto bg-primary" style="width: 65px">Centered</div>
-        <hr>
-
-        <div class="w-25 bg-primary">25%</div>
-        <div class="w-50 bg-primary">50%</div>
-        <div class="w-75 bg-primary">75%</div>
-        <div class="w-100 bg-primary">100%</div>
-        <hr>
-
-        <div style="height: 200px">
-            <div class="h-25 d-inline-block bg-primary">25%</div>
-            <div class="h-50 d-inline-block bg-primary">50%</div>
-            <div class="h-75 d-inline-block bg-primary">75%</div>
-            <div class="h-100 d-inline-block bg-primary">100%</div>
+        <div class="d-flex p-3 bg-dark text-white">
+            <div class="p-2 bg-primary">Flex item A</div>
+            <div class="p-2 bg-secondary">Flex item B</div>
+            <div class="p-2 bg-success">Flex item C</div>
         </div>
         <hr>
 
-        <div class="p-5 bg-primary">I'm blue</div>
-        <div class="m-5 bg-success">I'm green</div>
-        <hr>
-
-        <div class="shadow-none p-4 mb-4 bg-white">I'm a vampire</div>
-        <div class="shadow-sm p-4 mb-4 bg-white">I'm directly under the light</div>
-        <div class="shadow p-4 mb-4 bg-white">I'm under the light at a bigger angle</div>
-        <div class="shadow-lg p-4 mb-4 bg-white">Im under the light at a very big angle</div>
-        <hr>
-
-        <div class="container">
-            <span class="align-baseline">This</span>
-            <span class="align-top">looks</span>
-            <span class="align-middle">weird</span>
+        <div class="d-inline-flex p-3 bg-dark text-white">
+            <div class="p-2 bg-primary">Flex item A</div>
+            <div class="p-2 bg-secondary">Flex item B</div>
+            <div class="p-2 bg-success">Flex item C</div>
         </div>
         <hr>
 
-        <div class="container">
-            <div class="embed-responsive embed-responsive-4by3">
-                <iframe src="https://www.youtube.com/watch?v=e-ruaUXhBY8" class="embed-responsive-item">
-                </iframe>
+        <div class="d-flex flex-row-reverse p-3 bg-dark text-white">
+            <div class="p-2 bg-primary">Flex item A</div>
+            <div class="p-2 bg-secondary">Flex item B</div>
+            <div class="p-2 bg-success">Flex item C</div>
+        </div>
+        <hr>
+
+        <div class="d-flex flex-column p-3 bg-dark text-white">
+            <div class="p-2 bg-primary">Flex item A</div>
+            <div class="p-2 bg-secondary">Flex item B</div>
+            <div class="p-2 bg-success">Flex item C</div>
+        </div>
+        <hr>
+
+        <div class="d-flex justify-content-end p-3 bg-dark text-white">
+            <div class="p-2 bg-primary">Flex item A</div>
+            <div class="p-2 bg-secondary">Flex item B</div>
+            <div class="p-2 bg-success">Flex item C</div>
+        </div>
+        <div class="d-flex justify-content-center p-3 bg-dark text-white">
+            <div class="p-2 bg-primary">Flex item A</div>
+            <div class="p-2 bg-secondary">Flex item B</div>
+            <div class="p-2 bg-success">Flex item C</div>
+        </div>
+        <div class="d-flex justify-content-between p-3 bg-dark text-white">
+            <div class="p-2 bg-primary">Flex item A</div>
+            <div class="p-2 bg-secondary">Flex item B</div>
+            <div class="p-2 bg-success">Flex item C</div>
+        </div>
+        <div class="d-flex justify-content-around p-3 bg-dark text-white">
+            <div class="p-2 bg-primary">Flex item A</div>
+            <div class="p-2 bg-secondary">Flex item B</div>
+            <div class="p-2 bg-success">Flex item C</div>
+        </div>
+        <hr>
+
+        <div class="d-flex p-3 bg-dark text-white">
+            <div class="p-2 bg-primary flex-fill">Flex item A</div>
+            <div class="p-2 bg-secondary flex-fill">Flex item B</div>
+            <div class="p-2 bg-success flex-fill">Flex item C</div>
+        </div>
+        <hr>
+
+        <div class="d-flex p-3 bg-dark text-white">
+            <div class="p-2 bg-primary">Flex item A</div>
+            <div class="p-2 bg-secondary">Flex item B</div>
+            <div class="p-2 bg-success flex-grow-1">Flex item C</div>
+        </div>
+        <hr>
+
+        <div class="d-flex p-3 bg-dark text-white">
+            <div class="p-2 bg-primary order-3">Flex item A</div>
+            <div class="p-2 bg-secondary order-2">Flex item B</div>
+            <div class="p-2 bg-success order-1">Flex item C</div>
+        </div>
+        <hr>
+
+        <div class="d-flex p-3 bg-dark text-white">
+            <div class="p-2 mr-auto bg-primary">Flex item A</div>
+            <div class="p-2 bg-secondary">Flex item B</div>
+            <div class="p-2 bg-success">Flex item C</div>
+        </div>
+        <div class="d-flex p-3 bg-dark text-white">
+            <div class="p-2 bg-primary">Flex item A</div>
+            <div class="p-2 bg-secondary">Flex item B</div>
+            <div class="p-2 ml-auto bg-success">Flex item C</div>
+        </div>
+        <hr>
+
+        <div class="container mt-3">
+            <div class="d-flex flex-wrap bg-dark text-white align-content-center" style="height: 300px">
+                <div class="p-2 border">Flex item A</div>
+                <div class="p-2 border">Flex item B</div>
+                <div class="p-2 border">Flex item C</div>
+                <div class="p-2 border">Flex item D</div>
+                <div class="p-2 border">Flex item E</div>
+                <div class="p-2 border">Flex item F</div>
+                <div class="p-2 border">Flex item G</div>
+                <div class="p-2 border">Flex item H</div>
+                <div class="p-2 border">Flex item I</div>
+                <div class="p-2 border">Flex item J</div>
+                <div class="p-2 border">Flex item K</div>
+                <div class="p-2 border">Flex item L</div>
+                <div class="p-2 border">Flex item M</div>
+                <div class="p-2 border">Flex item N</div>
+                <div class="p-2 border">Flex item O</div>
+                <div class="p-2 border">Flex item P</div>
+                <div class="p-2 border">Flex item Q</div>
+                <div class="p-2 border">Flex item R</div>
+                <div class="p-2 border">Flex item S</div>
+                <div class="p-2 border">Flex item T</div>
+                <div class="p-2 border">Flex item U</div>
+                <div class="p-2 border">Flex item V</div>
+                <div class="p-2 border">Flex item W</div>
+                <div class="p-2 border">Flex item X</div>
+                <div class="p-2 border">Flex item Y</div>
+                <div class="p-2 border">Flex item Z</div>
             </div>
-            <div class="embed-responsive embed-responsive-1by1">
-                <iframe src="https://www.youtube.com/watch?v=e-ruaUXhBY8" class="embed-responsive-item">
-                </iframe>
+        </div>
+        <hr>
+
+        <div class="container mt-3">
+            <div class="d-flex flex-wrap bg-dark text-white align-content-stretch" style="height: 300px">
+                <div class="p-2 border">Flex item A</div>
+                <div class="p-2 border">Flex item B</div>
+                <div class="p-2 border">Flex item C</div>
+                <div class="p-2 border">Flex item D</div>
+                <div class="p-2 border">Flex item E</div>
+                <div class="p-2 border">Flex item F</div>
+                <div class="p-2 border">Flex item G</div>
+                <div class="p-2 border">Flex item H</div>
+                <div class="p-2 border">Flex item I</div>
+                <div class="p-2 border">Flex item J</div>
+                <div class="p-2 border">Flex item K</div>
+                <div class="p-2 border">Flex item L</div>
+                <div class="p-2 border">Flex item M</div>
+                <div class="p-2 border">Flex item N</div>
+                <div class="p-2 border">Flex item O</div>
+                <div class="p-2 border">Flex item P</div>
+                <div class="p-2 border">Flex item Q</div>
+                <div class="p-2 border">Flex item R</div>
+                <div class="p-2 border">Flex item S</div>
+                <div class="p-2 border">Flex item T</div>
+                <div class="p-2 border">Flex item U</div>
+                <div class="p-2 border">Flex item V</div>
+                <div class="p-2 border">Flex item W</div>
+                <div class="p-2 border">Flex item X</div>
+                <div class="p-2 border">Flex item Y</div>
+                <div class="p-2 border">Flex item Z</div>
             </div>
         </div>
         <hr>
-        
-        <div class="visible">You can see me.</div>
-        <div class="invisible">You can't see me.</div>
+
+        <div class="d-flex flex-wrap bg-dark text-white align-items-end" style="height: 300px">
+            <div class="p-2 border">Flex item A</div>
+            <div class="p-2 border">Flex item B</div>
+            <div class="p-2 border">Flex item C</div>
+        </div>
         <hr>
 
-        <button type="button" class="close">&times;</button>
-        <hr>
-
-        <span class="sr-only">Only screen readers may detect my presence.</span>
-        <hr>
-
-        <span class="d-block bg-primary">Regular block</span>
-        <span class="d-sm-block bg-secondary">Small block</span>
-        <span class="d-md-block bg-primary">Medium block</span>
-        <span class="d-lg-block bg-secondary">Large block</span>
-        <span class="d-xl-block bg-primary">Extra-large block</span>
+        <div class="d-flex flex-wrap bg-dark text-white align-items-stretch" style="height: 300px">
+            <div class="p-2 border">Flex item A</div>
+            <div class="p-2 border align-self-center">Flex item B</div>
+            <div class="p-2 border">Flex item C</div>
+        </div>        
     </body>
 </html>
