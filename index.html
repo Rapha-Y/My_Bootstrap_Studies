@@ -13,27 +13,39 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <script>
-            $(document).ready(function() {
-                var value = $(this).val().toLowerCase();
-                $("#myInput").on("keyup", function() {
-                    var value = $(this).val().toLowerCase();
-                    $("#myList li").filter(function() {
-                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                    });
-                });
-            });
-        </script>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 bg-secondary text-light border border-light">span 1</div>
+                <div class="col-lg-1 bg-secondary text-light border border-light">span 1</div>
+                <div class="col-lg-1 bg-secondary text-light border border-light">span 1</div>
+                <div class="col-lg-1 bg-secondary text-light border border-light">span 1</div>
 
-        <div class="container mt-3">
-            <input type="text" class="form-control" id="myInput" placeholder="What are you looking for?">
-            <br>
-            <ul class="list-group" id="myList">
-                <li class="list-group-item">abcd</li>
-                <li class="list-group-item">efgh</li>
-                <li class="list-group-item">ijkl</li>
-                <li class="list-group-item">mnop</li>
-            </ul>
+                <div class="col-lg-1 bg-secondary text-light border border-light">span 1</div>
+                <div class="col-lg-1 bg-secondary text-light border border-light">span 1</div>
+                <div class="col-lg-1 bg-secondary text-light border border-light">span 1</div>
+                <div class="col-lg-1 bg-secondary text-light border border-light">span 1</div>
+                
+                <div class="col-lg-1 bg-secondary text-light border border-light">span 1</div>
+                <div class="col-lg-1 bg-secondary text-light border border-light">span 1</div>
+                <div class="col-lg-1 bg-secondary text-light border border-light">span 1</div>
+                <div class="col-lg-1 bg-secondary text-light border border-light">span 1</div>
+            </div>
+            <div class="row">
+                <div class="col-4 bg-secondary text-light border border-light">span 4</div>
+                <div class="col-4 bg-secondary text-light border border-light">span 4</div>
+                <div class="col-4 bg-secondary text-light border border-light">span 4</div>
+            </div>
+            <div class="row">
+                <div class="col-4 bg-secondary text-light border border-light">span 4</div>
+                <div class="col-8 bg-secondary text-light border border-light">span 8</div>
+            </div>
+            <div class="row">
+                <div class="col-6 bg-secondary text-light border border-light">span 6</div>
+                <div class="col-6 bg-secondary text-light border border-light">span 6</div>
+            </div>
+            <div class="row">
+                <div class="col-12 bg-secondary text-light border border-light">span 12</div>
+            </div>
         </div>
     </body>
 </html>
